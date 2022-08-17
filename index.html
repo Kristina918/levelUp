@@ -1,243 +1,303 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://use.fontawesome.com/90d4640e44.js?_v=20220817215309"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js?_v=20220817215309"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Manrope:wght@200;300;400;500;600;700;800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap&_v=20220817215309" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css?_v=20220817215309"/>
-    <link rel="stylesheet" href="css/style.min.css?_v=20220817215309">
-    <title>Главная</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://use.fontawesome.com/90d4640e44.js?_v=20220818005936"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js?_v=20220818005936"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Manrope:wght@200;300;400;500;600;700;800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap&_v=20220818005936"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css?_v=20220818005936"
+  />
+  <link rel="stylesheet" href="css/style.min.css?_v=20220818005936" />
+  <title>levelUp</title>
 </head>
-<body>
-    
-<header class="header">
-    <div class="header-block">
-        <div class="header-info container">
-            <h1 class="header-title">Средство для повышения потенции <span>LevelUp</span>  </h1> 
-        <div class="header-content">
-           <ul class="header-list">
-            <li><img src="img/icons/icons.svg#gender-icon" class="svg-gender-icon-dims" alt="gender-icon"/>Возвращает потенцию  в любом возрасте
-            </li>
-            <li> <img src="img/icons/icons.svg#gender-icon" class="svg-gender-icon-dims" alt="gender-icon"/>Увеличивает тестостерон</li>
-            <li> <img src="img/icons/icons.svg#gender-icon" class="svg-gender-icon-dims" alt="gender-icon"/>Продлевает половой акт</li>
-            <li><a class="order" href="#form">ЗАКАЗАТЬ</a></li>
-           </ul>
-           <div class="product-img">
-            <picture><source srcset="img/product.webp" type="image/webp"><img src="img/product.png" alt="product"></picture>
-        </div>
-        </div>
-       
-    </div>
 
+<body>
+    <header class="header">
+  <div class="header-block">
+    <div class="header-info container">
+      <h1 class="header-title">
+        Средство для повышения потенции <span>LevelUp</span>
+      </h1>
+      <div class="header-content">
+        <ul class="header-list">
+          <li>
+            <img
+              src="img/icons/icons.svg#gender-icon"
+              class="svg-gender-icon-dims"
+              alt="gender-icon"
+            />Возвращает потенцию в любом возрасте
+          </li>
+          <li>
+            <img
+              src="img/icons/icons.svg#gender-icon"
+              class="svg-gender-icon-dims"
+              alt="gender-icon"
+            />Увеличивает тестостерон
+          </li>
+          <li>
+            <img
+              src="img/icons/icons.svg#gender-icon"
+              class="svg-gender-icon-dims"
+              alt="gender-icon"
+            />Продлевает половой акт
+          </li>
+          <li><a class="order" href="#form">ЗАКАЗАТЬ</a></li>
+        </ul>
+        <div class="product-img">
+          <picture><source srcset="img/product.webp" type="image/webp"><img src="img/product.png" alt="product" /></picture>
         </div>
-        
-     <video class="full-screen-video" preload="auto" autoplay muted loop>
-        <source type="video/webm" src="files/bgvideo.webm">
-        <source type="video/mp4"  src="files/bgvideo.mp4"> 
-     </video>
-</header> 
+      </div>
+    </div>
+  </div>
+  <video class="full-screen-video" preload="auto" autoplay muted loop>
+    <source type="video/webm" src="files/bgvideo.webm" />
+    <source type="video/mp4" src="files/bgvideo.mp4" />
+  </video>
+</header>
+ 
    <main>
     <div class="composition-of-the-product-block">
-    <div class="composition-of-the-product container">
-        <div class="product-block">
-            <div class="product">
-                <picture><source srcset="img/product.webp" type="image/webp"><img src="img/product.png" alt="product"></picture>
+  <div class="composition-of-the-product container">
+    <div class="product-block">
+      <div class="product">
+        <picture><source srcset="img/product.webp" type="image/webp"><img src="img/product.png" alt="product" /></picture>
+      </div>
+      <a class="order ingredient-btn" href="#form">ЗАКАЗАТЬ</a>
+    </div>
+  </div>
+</div>
+ 
+    <div class="reviews-block">
+  <div class="reviews-corusel">
+    <div class="testimonials container">
+      <div class="scroller">
+        <div class="item">
+          <div class="item-content">
+            <div class="reviews-img">
+              <picture><source srcset="img/reviewsimg.webp" type="image/webp"><img src="img/reviewsimg.jpg" alt="" /></picture>
             </div>
-            <a class="order ingredient-btn" href="#form">ЗАКАЗАТЬ</a>
+            <div class="reviews-text">
+              <h3>Вялов Александр</h3>
+              <p>
+                Спасибо!!! В общем, срочно искал замену и похоже нашел. Только
+                levelUp при полном изучении состава пагубно не влияет на
+                организм!
+              </p>
+            </div>
+          </div>
         </div>
-    </div>
-</div> 
-    <div class="reviews-block ">
-    <div class="reviews-corusel ">
-        <div class="testimonials container">
-            <div class="scroller">
-                <div class="item">
-                    <div class="item-content">
-                        <div class="reviews-img">
-                            <picture><source srcset="img/reviewsimg.webp" type="image/webp"><img src="img/reviewsimg.jpg" alt=""></picture>
-                        </div>
-                        <div class="reviews-text">
-                            <h3>Вялов Александр</h3>
-                            <p> Спасибо!!! В общем, срочно искал замену и похоже нашел. Только levelUp при полном изучении состава пагубно не влияет на организм!  </p>
-                        </div>
-                    </div>
-                        
-                        
-                </div>
-                <div class="item">
-                   
-                    <div class="item-content">
-                        <div class="reviews-img">
-                            <picture><source srcset="img/reviewsimg2.webp" type="image/webp"><img src="img/reviewsimg2.jpg" alt=""></picture>
-                        </div>
-                        <div class="reviews-text">
-                            <h3>Каменный Владимир</h3>
-                            <p>Тоже использовал капсулы. Штуковина работает. Заказывал с этой формы, без предоплаты, пришел через 6 дней. Купил в начале так, из любопытства, неужели думал, что можно так увеличить эрекцию и главное - продлить половой акт. Пришел после работы, прочитал полностью инстукцию, написали. что можно совмещать с алкоголем. Она выпила вина, я чуть коньяка, акт длился чуть меньше 2-х часов, просмотрели все кино, на счет восстановления то по разному, ну минута в среднем.</p>
-                        </div>
-                    </div>
-                    
-                </div>
-                <div class="item">
-                    <div class="item-content">
-                        <div class="reviews-img">
-                            <picture><source srcset="img/reviewsimg3.webp" type="image/webp"><img src="img/reviewsimg3.jpg" alt=""></picture>
-                        </div>
-                        <div class="reviews-text">
-                            <h3>Давольнова Анастасия </h3>
-                            <p> Мужу заказала. У меня просто слов нет! Спасибо за инфу! )) Муж как трактор прям, лет 10 уже его таким активным не видела. Теперь нас опять мирит постель))</p>
-                        </div>
-                    </div>
-                </div>
+        <div class="item">
+          <div class="item-content">
+            <div class="reviews-img">
+              <picture><source srcset="img/reviewsimg2.webp" type="image/webp"><img src="img/reviewsimg2.jpg" alt="" /></picture>
             </div>
-            <span class="btn prev">&lt;</span>
-    <span class="btn next">&gt;</span>
-         </div>
-         
+            <div class="reviews-text">
+              <h3>Каменный Владимир</h3>
+              <p>
+                Тоже использовал капсулы. Штуковина работает. Заказывал с этой
+                формы, без предоплаты, пришел через 6 дней. Купил в начале так,
+                из любопытства, неужели думал, что можно так увеличить эрекцию и
+                главное - продлить половой акт. Пришел после работы, прочитал
+                полностью инстукцию, написали. что можно совмещать с алкоголем.
+                Она выпила вина, я чуть коньяка, акт длился чуть меньше 2-х
+                часов, просмотрели все кино, на счет восстановления то по
+                разному, ну минута в среднем.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="item-content">
+            <div class="reviews-img">
+              <picture><source srcset="img/reviewsimg3.webp" type="image/webp"><img src="img/reviewsimg3.jpg" alt="" /></picture>
+            </div>
+            <div class="reviews-text">
+              <h3>Давольнова Анастасия</h3>
+              <p>
+                Мужу заказала. У меня просто слов нет! Спасибо за инфу! )) Муж
+                как трактор прям, лет 10 уже его таким активным не видела.
+                Теперь нас опять мирит постель))
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <span class="btn prev">&lt;</span>
+      <span class="btn next">&gt;</span>
     </div>
+  </div>
+  <script>
+    const testimonials = document.querySelector(".testimonials");
+    const scroller = testimonials.querySelector(".scroller");
+    const nextBtn = testimonials.querySelector(".btn.next");
+    const prevBtn = testimonials.querySelector(".btn.prev");
+    const itemWidth = testimonials.querySelector(".item").clientWidth;
 
-<script>
-    const testimonials = document.querySelector('.testimonials');
-    const scroller = testimonials.querySelector('.scroller');
-    const nextBtn = testimonials.querySelector('.btn.next');
-    const prevBtn = testimonials.querySelector('.btn.prev');
-    const itemWidth = testimonials.querySelector('.item').clientWidth;
-   
-    nextBtn.addEventListener('click', scrollToNextItem);
-    prevBtn.addEventListener('click', scrollToPrevItem);
-   
+    nextBtn.addEventListener("click", scrollToNextItem);
+    prevBtn.addEventListener("click", scrollToPrevItem);
+
     function scrollToNextItem() {
-        if(scroller.scrollLeft < (scroller.scrollWidth - itemWidth))
-       // Позиция прокрутки расположена не в начале последнего элемента
-       scroller.scrollBy({left: itemWidth, top: 0, behavior:'smooth'});
-   else
-       // Достигнут последний элемент. Возвращаемся к первому элементу, установив для позиции прокрутки 0
-       scroller.scrollTo({left: 0, top: 0, behavior:'smooth'});
+      if (scroller.scrollLeft < scroller.scrollWidth - itemWidth)
+        scroller.scrollBy({ left: itemWidth, top: 0, behavior: "smooth" });
+      else scroller.scrollTo({ left: 0, top: 0, behavior: "smooth" });
     }
     function scrollToPrevItem() {
-        if(scroller.scrollLeft != 0)
-       // Позиция прокрутки расположена не в начале последнего элемента
-       scroller.scrollBy({left: -itemWidth, top: 0, behavior:'smooth'});
-   else
-       // Это первый элемент. Переходим к последнему элементу, установив для позиции прокрутки ширину скроллера
-        scroller.scrollTo({left: scroller.scrollWidth, top: 0, behavior:'smooth'});
+      if (scroller.scrollLeft != 0)
+        scroller.scrollBy({ left: -itemWidth, top: 0, behavior: "smooth" });
+      else
+        scroller.scrollTo({
+          left: scroller.scrollWidth,
+          top: 0,
+          behavior: "smooth",
+        });
     }
- </script>
-
-</div> 
+  </script>
+</div>
+ 
     <div class="product-description-block">
-    <div class="product-description-container container">
-        <div class="product-description">
-            <div class="doctor-img">
-                <picture><source srcset="img/doctor.webp" type="image/webp"><img src="img/doctor.png" alt="doctor"></picture>
-            </div>
-            <div class="product-description-text">
-                <h3><span>LevelUp</span> -  здоровая потенция</h3>
-                <p>LevelUp разрабатывался ведущими урологами-андрологами Америки под грифом "совершенно секретно". Исследования над препаратом проводились в лабораторных и клинических условиях при участии более 10 тысяч мужчин разных возрастных категорий. Это позволило ученым еще на стадии производства вывести идеальную формулу растительного препарата, эффективность которого превосходит все ныне существующие медикаменты против импотенции.</p>
-                
-            </div>
-        </div>
-        <ul class="characteristic">
-            <li><img src="img/icons/icons.svg#icon" alt=""> Не содержит опасных химических элементов</li>
-            <li><img src="img/icons/icons.svg#icon" alt=""> Не вызывает привыкания и побочных действий</li>
-            <li><img src="img/icons/icons.svg#icon" alt=""> Может использоваться в качестве курсовой терапии</li>
-        </ul>
-        <div class="description-block-btn">
-            <a class="order " href="#form">ЗАКАЗАТЬ</a>
-        </div>
-       
-       
+  <div class="product-description-container container">
+    <div class="product-description">
+      <div class="doctor-img">
+        <picture><source srcset="img/doctor.webp" type="image/webp"><img src="img/doctor.png" alt="doctor" /></picture>
+      </div>
+      <div class="product-description-text">
+        <h3><span>LevelUp</span> - здоровая потенция</h3>
+        <p>
+          LevelUp разрабатывался ведущими урологами-андрологами Америки под
+          грифом "совершенно секретно". Исследования над препаратом проводились
+          в лабораторных и клинических условиях при участии более 10 тысяч
+          мужчин разных возрастных категорий. Это позволило ученым еще на стадии
+          производства вывести идеальную формулу растительного препарата,
+          эффективность которого превосходит все ныне существующие медикаменты
+          против импотенции.
+        </p>
+      </div>
     </div>
+    <ul class="characteristic">
+      <li>
+        <img src="img/icons/icons.svg#icon" alt="" /> Не содержит опасных
+        химических элементов
+      </li>
+      <li>
+        <img src="img/icons/icons.svg#icon" alt="" /> Не вызывает привыкания и
+        побочных действий
+      </li>
+      <li>
+        <img src="img/icons/icons.svg#icon" alt="" /> Может использоваться в
+        качестве курсовой терапии
+      </li>
+    </ul>
+    <div class="description-block-btn">
+      <a class="order" href="#form">ЗАКАЗАТЬ</a>
+    </div>
+  </div>
 </div>
  
     <div class="order-form-block-bg">
-    <div class=" container">
-        <h1 class="header-title">Средство для повышения потенции <span>LevelUp</span>  </h1>
-        <div class="timer-block">
-            <h3><span>КУПИ ПО СНИЖЕННОЙ СТОИМОСТИ <br></span> 
-                ДО КОНЦА АКЦИИ ОСТАЛОСЬ:</h3>
-                <script src="//megatimer.ru/get/05190e84285d392e0ade5e02da762e5d.js?_v=20220817215309"></script>
-        </div>
-        <div class="box-flex">
-            <div class="content-box">
-                <div class="product-img">
-                    <picture><source srcset="img/product.webp" type="image/webp"><img src="img/product.png" alt="product"></picture>
-                </div>
-                <div class="price">
-                    <div class="price-old">
-                        <p>1500 &#8381;</p>
-                    </div>
-                    <div class="price-new pulse-button">
-                        <p>Новая цена:</p>
-                        <p>899 &#8381;</p>
-                        <span class="pulse-rings"></span>
-                        <span class="pulse-rings"></span>
-                        <span class="pulse-rings"></span>
-
-                    </div>
-                  
-                </div>
-            </div>
-            <form id="form" action="#">
-                <div class="form-group">
-                    <p>Ваше имя:</p>
-                    <label id="label-name">
-                      <input id="name-input" placeholder="Введите имя" type="text" name="q" value="">
-                    </label>
-                </div>
-                <div class="form-group">
-                    <p>Телефон:</p>
-                    <label id="label-tel">
-                      <input id="tel-input" placeholder="Введите номер телефона" type="text" name="tel-input">
-                    </label>
-                </div>
-                <input class="submit-btn " type="submit" value="ЗАКАЗАТЬ">
-            </form>
-        </div>
-        
-
+  <div class="container">
+    <h1 class="header-title">
+      Средство для повышения потенции <span>LevelUp</span>
+    </h1>
+    <div class="timer-block">
+      <h3>
+        <span>КУПИ ПО СНИЖЕННОЙ СТОИМОСТИ <br /></span> ДО КОНЦА АКЦИИ ОСТАЛОСЬ:
+      </h3>
+      <script src="//megatimer.ru/get/05190e84285d392e0ade5e02da762e5d.js?_v=20220818005936"></script>
     </div>
+    <div class="box-flex">
+      <div class="content-box">
+        <div class="product-img">
+          <picture><source srcset="img/product.webp" type="image/webp"><img src="img/product.png" alt="product" /></picture>
+        </div>
+        <div class="price">
+          <div class="price-old">
+            <p>1500 &#8381;</p>
+          </div>
+          <div class="price-new pulse-button">
+            <p>Новая цена:</p>
+            <p>899 &#8381;</p>
+            <span class="pulse-rings"></span>
+            <span class="pulse-rings"></span>
+            <span class="pulse-rings"></span>
+          </div>
+        </div>
+      </div>
+      <form id="form" action="#">
+        <div class="form-group">
+          <p>Ваше имя:</p>
+          <label id="label-name">
+            <input
+              id="name-input"
+              placeholder="Введите имя"
+              type="text"
+              name="q"
+              value=""
+            />
+          </label>
+        </div>
+        <div class="form-group">
+          <p>Телефон:</p>
+          <label id="label-tel">
+            <input
+              id="tel-input"
+              placeholder="Введите номер телефона"
+              type="text"
+              name="tel-input"
+            />
+          </label>
+        </div>
+        <input class="submit-btn" type="submit" value="ЗАКАЗАТЬ" />
+      </form>
+    </div>
+  </div>
 </div>
 <script>
-$(function() {
-    $('.form-group #name-input')
-      .focus(function() {
-        $(this).closest('label').addClass('hide');
+  $(function () {
+    $(".form-group #name-input")
+      .focus(function () {
+        $(this).closest("label").addClass("hide");
       })
-      .blur(function() {
-        $(this).closest('label').removeClass('hide');
+      .blur(function () {
+        $(this).closest("label").removeClass("hide");
       });
   });
-  $(function() {
-    $('.form-group #tel-input')
-      .focus(function() {
-        $(this).closest('label').addClass('hide');
+  $(function () {
+    $(".form-group #tel-input")
+      .focus(function () {
+        $(this).closest("label").addClass("hide");
       })
-      .blur(function() {
-        $(this).closest('label').removeClass('hide');
+      .blur(function () {
+        $(this).closest("label").removeClass("hide");
       });
   });
 
+  $("#tel-input").keypress(function (event) {
+    event = event || window.event;
+    if (
+      event.charCode &&
+      event.charCode != 0 &&
+      event.charCode != 46 &&
+      (event.charCode < 48 || event.charCode > 57)
+    )
+      return false;
+  });
 
-  $("#tel-input").keypress(function(event){
-  event = event || window.event;
-  if (event.charCode && event.charCode!=0 && event.charCode!=46 && (event.charCode < 48 || event.charCode > 57) )
-    return false;
-});
-
-
-var hiddenElement = document.getElementById("form");
-var btn = document.querySelector('.order');
-
-
-  </script> 
+  var hiddenElement = document.getElementById("form");
+  var btn = document.querySelector(".order");
+</script>
+ 
    </main>
-    <script src="js/app.min.js?_v=20220817215309"></script>
+    <script src="js/app.min.js?_v=20220818005936"></script>
 </body>
 </html>
