@@ -4,17 +4,17 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <script src="https://use.fontawesome.com/90d4640e44.js?_v=20220818011936"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js?_v=20220818011936"></script>
+  <script src="https://use.fontawesome.com/90d4640e44.js?_v=20220818063635"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js?_v=20220818063635"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
-    href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Manrope:wght@200;300;400;500;600;700;800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap&_v=20220818011936"
+    href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Manrope:wght@200;300;400;500;600;700;800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap&_v=20220818063635"
     rel="stylesheet"
   />
-  <link rel="stylesheet" href="css/style.min.css?_v=20220818011936" />
+  <link rel="stylesheet" href="css/style.min.css?_v=20220818063635" />
   <title>levelUp</title>
 </head>
 
@@ -209,7 +209,7 @@
       <h3>
         <span>КУПИ ПО СНИЖЕННОЙ СТОИМОСТИ <br /></span> ДО КОНЦА АКЦИИ ОСТАЛОСЬ:
       </h3>
-      <script src="//megatimer.ru/get/05190e84285d392e0ade5e02da762e5d.js?_v=20220818011936"></script>
+      <script src="//megatimer.ru/get/05190e84285d392e0ade5e02da762e5d.js?_v=20220818063635"></script>
     </div>
     <div class="box-flex">
       <div class="content-box">
@@ -237,8 +237,7 @@
               id="name-input"
               placeholder="Введите имя"
               type="text"
-              name="q"
-              value=""
+              name="name"
             />
           </label>
         </div>
@@ -248,7 +247,7 @@
             <input
               id="tel-input"
               placeholder="Введите номер телефона"
-              type="text"
+              type="number"
               name="tel-input"
             />
           </label>
@@ -277,23 +276,11 @@
         $(this).closest("label").removeClass("hide");
       });
   });
-
-  $("#tel-input").keypress(function (event) {
-    event = event || window.event;
-    if (
-      event.charCode &&
-      event.charCode != 0 &&
-      event.charCode != 46 &&
-      (event.charCode < 48 || event.charCode > 57)
-    )
-      return false;
-  });
-
   var hiddenElement = document.getElementById("form");
   var btn = document.querySelector(".order");
 </script>
  
    </main>
-    <script src="js/app.min.js?_v=20220818011936"></script>
+    <script src="js/app.min.js?_v=20220818063635"></script>
 </body>
 </html>
